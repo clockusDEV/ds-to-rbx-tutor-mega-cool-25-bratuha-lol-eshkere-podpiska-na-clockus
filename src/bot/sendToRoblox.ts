@@ -2,18 +2,7 @@ import "dotenv/config"
 import { ApplicationCommandOptionType, REST, Routes } from "discord.js"
 
 const commands = [
-    {
-        name: "send",
-        description: "Send a message to Roblox",
-        options: [
-            {
-                name: "message",
-                description: "The message to send to Roblox",
-                type: ApplicationCommandOptionType.String,
-                required: true
-            }
-        ]
-    }
+    {}
 ]
 
 const rest = new REST({ version: "10" })
